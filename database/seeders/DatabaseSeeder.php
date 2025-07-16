@@ -18,6 +18,6 @@ class DatabaseSeeder extends Seeder
     {
         Company::factory(5)->create();
         User::factory(10)->create();
-        Task::factory(50)->create();
+        Task::factory(3)->create();
     }
 }

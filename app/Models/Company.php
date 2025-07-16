@@ -11,7 +11,11 @@ class Company extends Model
 {
 
     use HasFactory;
-    
+
+    protected $table = 'companies';
+
+    protected $connection = 'mysql';
+
     protected $fillable = [
         'name',
         'address',
